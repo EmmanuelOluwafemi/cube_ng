@@ -237,10 +237,24 @@ ul{
 	display: none;
 }
 
+img.img-2{
+	position: absolute; 
+	left:-180px;
+	top: 50%;
+	transform: translateY(-50%); 
+	width: 80% height:auto;"
+}
+
 /* Our Client */
 .our-client{
 	position: relative;
 }
+
+.our-client img{
+	width: 100%;
+	height: auto;
+}
+
 
 
 /* Footer */
@@ -290,7 +304,7 @@ input.newsletter-input{
 	text-align: center;
 }
 
-@media (max-width: 767.98px) { 
+@media (max-width: 767px) { 
 	.hero{
 		height: 70vh;
 	}
@@ -390,11 +404,6 @@ input.newsletter-input{
 		width: 100% !important;
 	}
 
-	.our-client img{
-		width: 100%;
-		height: auto;
-	}
-
 	.footer-credit{
 		width: 100%;
 		font-size: 12px;
@@ -403,5 +412,52 @@ input.newsletter-input{
 
 	.side-title{
 		display: none;
+	}
+ }
+
+/* medium Screen */
+
+ @media (min-width: 767px) and (max-width: 1204px){
+	.hero{
+		height: 40vh;
+	}
+
+	.hero .row h1{
+		font-size: 80px;
+	}
+
+	.hero .col-md-6 p{
+		font-size: 25px;
+	}
+
+	.products{
+		width: 100%;
+	}
+
+
+ }
+
+/* Large Screen */
+
+ @media (min-width: 1024px) and (max-width: 1204) {
+	.products{
+		width: 85%;
+	}
+
+	.img-1{
+		position: absolute;
+		left: 200px;
+	}
+
+	img.img-2{
+		position: absolute;
+		left: -200px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.side-title{
+		right: -33px;
+		transform: translateY(-50%);
 	}
  }
