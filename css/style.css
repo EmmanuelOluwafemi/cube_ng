@@ -407,6 +407,14 @@ input.newsletter-input{
 		width: 100%;
 	}
 
+	.product img.img-1{
+		left: -50px;
+	}
+
+	.product img.img-3{
+		left: -20px;
+	}
+
 	.side-title{
 		display: none;
 	}
