@@ -141,6 +141,12 @@ body{
 	color: #086948;
 }
 
+#skrollr-body {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
 /* Our work section */
 
 .our-work{
