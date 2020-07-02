@@ -277,7 +277,7 @@ header{
 }
 
 footer{
-    background-color: #151724;
+    background-color: #0E0E11;
     padding-top: 109px;
     padding-bottom: 52px;
 }
@@ -299,19 +299,24 @@ footer h3{
 .address,
 .location{
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     color: #ffffff;
-    padding-top: 15px;
+    padding-top: 10px;
     border-top: 2px solid #CF4566;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 112.7%;
     letter-spacing: -0.015em;
 }
 
+.address{
+    margin-right: 2%;
+}
+
 .location{
-    margin-left: 10%;
+    margin-left: 3%;
+    margin-top: 0 !important;
 }
 
 
@@ -447,5 +452,60 @@ footer h3 span::before{
 
     .nav-item:hover{
         background: #151724;
+    }
+
+    .our-work-text{
+        margin-top: 40px;
+    }
+
+    .our-work-text:first-child{
+        margin-top: 0;
+    }
+
+    .our-work-text h3{
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .our-work-text h3 span{
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .our-work-text p{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .our-work-text h1{
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .our-work-text a{
+        padding-top: 20px;
+    }
+
+    .project-image{
+        width: 100%;
+        margin-top: 40px;
+        height: 400px;
+    }
+
+    .project-image img{
+        height: 380px;
+        width: auto;
+    }
+
+    .text-pattern-project{
+        display: none;
+    }
+
+    .location{
+
     }
 }
