@@ -12,213 +12,199 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <!-- Fontawesome -->
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white-shadow">
-            <div class="container">
-                <a class="navbar-brand" href="#">Cube.ng</a>
+    <!-- Header -->
+    <header id="home">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"><img width="200px" height="auto" src="./images/Logo.png" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
                 </button>
+              
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Our Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Clients</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Get Started</a>
-                        </li>
-                    </ul>
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#our-work">Our Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#client">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-        </nav>
-        
-        <!-- Hero Section -->
-
-        <div class="hero">
-            <div class="container h-100">
-                <div class="row h-100" style="max-height: 672px">
-                    <div class="col-md-12 col-lg-6 d-flex justify-content-start">
-                        <h1 class="h1 text-green pt-6">Great Design is a force of Nature</h1>
-                    </div>
-                    <div class="col-md-12 col-lg-6 d-flex justify-content-end flex-column">
-                        <h6 class="h6 mobile-pad text-green">Legendary brands create products that draw on their most powerful natures and strengths. Wolf&Whale is a digital design consultancy that helps brands discover what will make them more memorable, impactful, and profitable.</h6>
-                        <a href="#" class="btn btn-green text-white bg-green">Get Started</a>
-                    </div>
-                </div>
-                <h4 class="h4 mobile-hide text-gray" style="padding-top: 78px; padding-bottom: 78px;">Award winning UI/UX design and Branding Agency Based in Nigeria </h4>
-            </div>
-        </div>
-    </header>
-    <section class="our-work">
-        <div class="container">
-            <h2 class="text-gray h2" style="padding-top: 97px;">Our <span class="text-green">Work.</span></h2>
-            <p class="p" style="width: 595px;">
-                Have a glance at some selected works we are proud of, as we delivered solutions to branding and design pattern and design problems, with in-depth research, innovation and creativity.
-            </p>
-            <div class="work-gallery" style="margin-top: 40px">
-                <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="product bg-green d-flex justify-content-center align-item-center">
-                            <img src="./images/7rewards.png" alt="" class="img-fluid" style="height: 365px">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="product bg-blue d-flex justify-content-center align-item-center">
-                            <img src="./images/comfortDelGro-hero 1.png" alt="" class="img-fluid" style="height: 365px">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="product bg-white d-flex justify-content-center align-item-center">
-                            <img class="laptop-img"src="./images/image 1.png" alt="" class="img-fluid" style="height: 250px">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="product bg-green d-flex justify-content-center align-item-center" style="background: #B3BFD2;">
-                            <img src="./images/Trupo-Phone-Mockup-Header@2x-1 1.png" alt="" class="img-fluid" style="height: 365px">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="product bg-blue d-flex justify-content-center align-item-center" style="background: #F3F3F3">
-                            <img class="laptop-img" src="./images/heroImg-fairpriceOnline 2.png" alt="" class="img-fluid" style="height: 250px;">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="product d-flex justify-content-center align-item-center bg-blue">
-                            <img src="./images/Project-6.png" alt="" class="img-fluid" style="height: 365px">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Mobile View Product Slider  -->
-            <div class="products-carousel">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner row w-100 mx-auto">
-                        <!-- Slide One -->
-                        <div class="carousel-item col-md-4 active">
-                            <div class="card" style="height: 600px; background: #086948;">
-                                <div class="card-header">7Rewards - Mobile Application Convenience has its rewards</div>
-                                <div class="card-body">
-                                    <img height="100%" width="auto" class="d-block w-100" src="./images/7rewards.png" alt="First slide">
-                                </div>
-                                <div class="card-footer">
-                                    <a style="width: 100%; display: flex; justify-content: space-between; color: #ffffff;" href="#">Find Out More <span style="padding-left: 10px; color: #ffffff"><i class="far fa-arrow-alt-circle-right"></i></span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Slide Two -->
-                        <div class="carousel-item col-md-4">
-                            <div class="card" style="height: 600px">
-                                <div class="card-header" style="color: #333333; background: #ffffff;">Intern Hotel - A Hotel Website</div>
-                                <div style="position: relative;" class="card-body">
-                                    <img style="position: absolute; left: 40%; top: 50%; transform: translate(-50%, -50%);" class="d-block w-100" src="./images/image.png" alt="First slide">
-                                </div>
-                                <div class="card-footer" style="color: #333333;background: #ffffff;">
-                                    <a style="width: 100%; display: flex; justify-content: space-between; color: #333333;" href="#">Find Out More <span style="padding-left: 10px; color: #333333"><i class="far fa-arrow-alt-circle-right"></i></span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Slide Three -->
-                        <div class="carousel-item col-md-4">
-                            <div class="card" style="height: 600px; background: #283876;">
-                                <div class="card-header">ComfortDelGro - Mobile Application (iOS/Android)</div>
-                                <div class="card-body">
-                                    <img height="100%" width="auto" class="d-block w-100" src="./images/comfortDelGro-hero 1.png" alt="First slide">
-                                </div>
-                                <div class="card-footer">
-                                    <a style="width: 100%; display: flex; justify-content: space-between; color: #ffffff;" href="#">Find Out More <span style="padding-left: 10px; color: #ffffff"><i class="far fa-arrow-alt-circle-right"></i></span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Slide Navigation -->
-                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-            <div class="text-center mt-5">
-                <a href="#" class="btn btn-green text-white bg-green">Show More</a>
-            </div>
-        </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- Our Client Section -->
-
-    <section class="client">
-        <div class="container">
-            <h2 class="text-gray h2" style="padding-top: 97px;">Our <span class="text-green">Clients.</span></h2>
-            <p class="p" style="width: 595px;">
-                We like to build close relationships with our clients. We believe dynamic collaboration is the only way to get the job done well done. If you become one of our clients, expect a lot of back and forth so we can create something that makes sense together.
-            </p>
-            <img class="mt-3" src="./images/Clients.png" alt="" width="100%" height="auto">
-            <div class="mt-5 text-center">
-                <p class="text-green">Let’s Build Something Together </p>
-                <h3 class="mb-3">Start with Us</h3>
-                <a href="#" class="btn btn-green text-white bg-green">Get in touch</a>
-            </div>
-        </div>
-    </section>
-    <!-- Footer Section -->
-    <footer class="bg-green">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="h1 text-white text-uppercase">cube.ng</h1>
-                <div class="links w-100 d-flex justify-content-between">
-                    <a href="#">About Cube</a>
-                    <a href="#">Our Works</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact us</a>
-                </div>
-                <div class="text-center d-flex justify-content-center">
-                    <div class="row" style="height: 63.29px; margin-bottom: 26.43px">
-                        <div class="col-md-6 text-white d-flex align-items-center" style="height: 100%; padding-top: 10px">
-                            <h6 class="h6">Subcribe for our Newletter!</h6>
-                        </div>
-                        <div class="input-field col-md-6 d-flex align-item-center">
-                            <div class="input-group">
-                                <input type="text" class="form-control" aria-label="Subscribe" placeholder="Your E-mail">
-                                <div class="input-group-append">
-                                    <span" class="input-group-text">
-                                        <img src="./images/send-icon.png" alt="">
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </nav>
+            <div class="hero-text w-100 text-white d-flex justify-content-center align-items-center">
+                <h1 data-aos="fade-down">GREAT DESIGN IS A FORCE OF NATURE.</h1>
+                <div class="w-100 d-flex justify-content-start">
+                    <a href="#" data-aos="fade-right"><span>See our works</span><span><i class="fas fa-arrow-right"></i></span></a>
                 </div>
                 
-                <div class="social-icon-container w-100 d-flex justify-content-center">
-                    <div class="mt-5 mb-3 text-center social-icon">
-                        <div class="icon-width w-100 d-flex justify-content-between">
-                            <span><i class="fab fa-facebook-f"></i></span>
-                            <span><i class="fab fa-twitter"></i></span>
-                            <span><i class="fab fa-instagram"></i></span>
-                            <span><i class="fab fa-dribbble"></i></span>
+                <p data-aos="fade-up">We are a full service agenc designing digital expeerience for large and small bussinesses alike </p>
+            </div>
+        </div>
+        <div class="text-pattern">
+            <p class="outlined-text">Cube.ng</p>
+            <p class="outlined-text">Cube.ng</p>
+            <p class="outlined-text">Cube.ng</p>
+            <p class="outlined-text">Cube.ng</p>
+            <p class="outlined-text">Cube.ng</p>
+            <p class="outlined-text">Cube.ng</p>
+        </div>
+    </header>
+
+    <!-- our Work -->
+    <main>
+        <section class="our-work w-100" id="our-work">
+            <div class="container">
+                <div class="project w-100 my-5" style="min-height: 700px;">
+                    <div class="h-100 position">
+                        <div class="text-pattern-project">
+                            <p class="outlined-text">Godaddy</p>
+                            <p class="outlined-text">Godaddy</p>
+                            <p class="outlined-text">Godaddy</p>
+                            <p class="outlined-text">Godaddy</p>
+                            <p class="outlined-text">Godaddy</p>
+                            <p class="outlined-text">Godaddy</p>
+                            <p class="outlined-text">Godaddy</p>
+                            <p class="outlined-text">Godaddy</p>
+                            <p class="outlined-text">Godaddy</p>
+                            <p class="outlined-text">Godaddy</p>
+                        </div>
+                        <div class="row w-100 my-5" style="height: 580px;">
+                            <div class="our-work-text col-md-6">
+                                <h3 data-aos="fade-up-right" data-aos-duration="500"><span>01</span>Godaddy</h3>
+                                <h1 data-aos="fade-right" data-aos-duration="650">It’s reality elevated.</h1>
+                                <p data-aos="fade-right" data-aos-duration="800">GoDaddy now provides a full suite of services to help entrepreneurs and small business owners jumpstart and scale their ideas. Their most popular feature, GoCentral, allows millions of customers to design websites with no coding experience.
+                                </p>
+                                <a data-aos="fade-right" data-aos-duration="1000" href="#">View Case Study</a>
+                            </div>
+                            <div class="col-md-6">
+                                <div data-aos="fade-left" data-aos-duration="650" class="project-image">
+                                    <img data-aos="zoom-in-up" data-aos-duration="1000" class="img-fluid" src="./images/GoDaddy_Phone_Large-1 1.png" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="footer-text w-100 d-flex justify-content-center" style="margin-top: 26px">
-                    <p class="text-white">Copyright © Cube - UI/UX Brand +33474141254 • 101, Old City Road.</p>
+                <div class="project w-100 my-5" style="min-height: 700px;">
+                    <div class="h-100 position">
+                        <div class="text-pattern-project">
+                            <p class="outlined-text">Trupo</p>
+                            <p class="outlined-text">Trupo</p>
+                            <p class="outlined-text">Trupo</p>
+                            <p class="outlined-text">Trupo</p>
+                            <p class="outlined-text">Trupo</p>
+                            <p class="outlined-text">Trupo</p>
+                            <p class="outlined-text">Trupo</p>
+                            <p class="outlined-text">Trupo</p>
+                            <p class="outlined-text">Trupo</p>
+                            <p class="outlined-text">Trupo</p>
+                        </div>
+                        <div class="row w-100 my-5" style="height: 580px;">
+                            <div class="our-work-text col-md-6">
+                                <h3 data-aos="fade-up-right" data-aos-duration="500"><span>02</span>Trupo</h3>
+                                <h1 data-aos="fade-right" data-aos-duration="650">Brave new benefits</h1>
+                                <p data-aos="fade-right" data-aos-duration="800">Trupo is a bold new way for people who work for themselves to get insurance benefits. Their experts are committed to providing each of their customers with a better sense of security and control by recommending the best insurance products for their individual needs. No upselling, no loopholes, just solutions.
+                                </p>
+                                <a data-aos="fade-right" data-aos-duration="1000" href="#">View Case Study</a>
+                            </div>
+                            <div class="col-md-6">
+                                <div data-aos="fade-left" data-aos-duration="650" class="project-image" style="background: #B4C1D3;">
+                                    <img data-aos="zoom-in-up" data-aos-duration="1000" class="img-fluid" src="./images/Trupo-Phone-Mockup-Header@2x-1 2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project w-100 my-5" style="min-height: 700px;">
+                    <div class="h-100 position">
+                        <div class="text-pattern-project">
+                            <p class="outlined-text">Pax</p>
+                            <p class="outlined-text">Pax</p>
+                            <p class="outlined-text">Pax</p>
+                            <p class="outlined-text">Pax</p>
+                            <p class="outlined-text">Pax</p>
+                            <p class="outlined-text">Pax</p>
+                            <p class="outlined-text">Pax</p>
+                            <p class="outlined-text">Pax</p>
+                            <p class="outlined-text">Pax</p>
+                            <p class="outlined-text">Pax</p>
+                        </div>
+                        <div class="row w-100 my-5" style="height: 580px;">
+                            <div class="our-work-text col-md-6">
+                                <h3 data-aos="fade-up-right" data-aos-duration="500"><span>02</span>Pax</h3>
+                                <h1 data-aos="fade-right" data-aos-duration="650">Payment made easy </h1>
+                                <p data-aos="fade-right" data-aos-duration="800">Pax is a premium vaporizer product, often called the ‘Apple’ of vape pens. Their product wasn’t the problem, though. Their app experience on iOS and Android was hard to use, off-brand, and not at the high standards of the company as a whole.
+                                </p>
+                                <a data-aos="fade-up" data-aos-duration="1000" href="#">View Case Study</a>
+                            </div>
+                            <div class="col-md-6">
+                                <div data-aos="fade-left" data-aos-duration="650" class="project-image" style="background: #464646;">
+                                    <img data-aos="zoom-in-up" data-aos-duration="1000" class="img-fluid" src="./images/pax-1 1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mb-4">
+                    <a href="#" data-aos="zoom-in" data-aos-duration="500" >See All Project</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients -->
+        <section class="clients" id="client">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h3 data-aos="fade-down-right" data-aos-duration="650"  style="color: #000000;">Our Clients</h3>
+                        <h1 data-aos="fade-right" data-aos-duration="800"  style="color: #000000;">We’ve worked with big and small alike.</h1>
+                        <p data-aos="fade-right" data-aos-duration="1000" class="mb-3" style="color: #000000;">We’ve been grateful to partner with a wide variety of businesses. Our creativity enables us to collaborate on many different types of projects from VR game experiences to enterprise software.</p>
+                        <a data-aos="fade-up-right" data-aos-duration="1000" href="#">Work with us</a>
+                    </div>
+                    <div class="col-md-7 d-flex align-items-center">
+                        <img data-aos="zoom-in-up" data-aos-duration="1000" class="img-fluid" src="./images/Clients.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <h1 data-aos="fade-down-right" data-aos-duration="650">Let’s Make Something Together</h1>
+            <h3 data-aos="fade-right" data-aos-duration="800">Start by <span>saying Hi</span></h3>
+            <div data-aos="fade-right" data-aos-duration="1000" class="row">
+                <div class="col-md-4">
+                    <img data-aos="fade-up" data-aos-duration="600"  src="./images/Logo.png" alt="logo">
+                </div>
+                <div class="col-md-3 d-flex justify-content-center address">
+                    <p data-aos="fade-up" data-aos-duration="600" >hello@cube.ng <br><br>345 247 841 12</p>
+                    <div class="mt-3">
+                        <span><i class="fab fa-facebook-f"></i></span>
+                        <span><i class="fab fa-twitter"></i></span>
+                        <span><i class="fab fa-instagram"></i></span>
+                        <span><i class="fab fa-dribbble"></i></span>
+                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000"  class="col-md-3 d-flex justify-content-center location">
+                    <p>2000 North Bride  Rd<br>Saratoga  USSR 84045</p>
                 </div>
             </div>
         </div>
     </footer>
+
     <!-- Scripts -->
     <!-- Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -226,10 +212,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!-- Font Awesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.jss"></script>
-    
-    <!-- Defined Scripts -->
-    <script src="./js/main.js"></script>
 
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Defined Script -->
+    <script src="./js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
