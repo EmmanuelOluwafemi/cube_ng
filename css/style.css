@@ -463,7 +463,7 @@ footer h3 span::before{
     }
 
     .our-work .project{
-        max-height: 1000px !important;
+        min-height: 900px !important;
         border-bottom: 2px solid #CF4566;
     }
 
