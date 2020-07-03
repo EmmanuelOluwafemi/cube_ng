@@ -333,6 +333,14 @@ footer h3 span::before{
     bottom: -6px;
 }
 
+.address .social-icon i{
+    transition: color 650ms ease-in-out;
+}
+
+.address .social-icon i:hover{
+    color: #CF4566;
+}
+
 
 @media (max-width: 340px){
     .hero-text a{
@@ -454,6 +462,11 @@ footer h3 span::before{
         background: #151724;
     }
 
+    .our-work .project{
+        min-height: 800px !important;
+        border-bottom: 2px solid #CF4566;
+    }
+
     .our-work-text{
         margin-top: 40px;
     }
@@ -462,7 +475,8 @@ footer h3 span::before{
         margin-top: 0;
     }
 
-    .our-work-text h3{
+    .our-work-text h3,
+    .clients h3{
         font-weight: 800;
         font-size: 15px;
         line-height: 18px;
@@ -473,14 +487,16 @@ footer h3 span::before{
         line-height: 12px;
     }
 
-    .our-work-text p{
+    .our-work-text p,
+    .clients p{
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 21px;
     }
 
-    .our-work-text h1{
+    .our-work-text h1,
+    .clients h1{
         font-weight: 800;
         font-size: 20px;
         line-height: 24px;
@@ -505,7 +521,33 @@ footer h3 span::before{
         display: none;
     }
 
-    .location{
+    footer{
+        margin-bottom: 30px;
+    }
 
+    footer h1{
+        font-size: 40px;
+    }
+
+    footer h3{
+        font-size: 15px;
+    }
+
+    .footer-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .location, .address{
+        text-align: center;
+    }
+
+    .address .social-icon{
+        padding: 20px 15%;
+    }
+
+    .location{
+        margin: 0;
+        margin-top: 20px !important;
     }
 }
