@@ -467,6 +467,11 @@ footer h3 span::before{
         border-bottom: 2px solid #CF4566;
     }
 
+    .our-work .project:first-child{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     .our-work-text{
         margin-top: 40px;
     }
