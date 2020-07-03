@@ -302,6 +302,8 @@ header{
     right: -90%;
 }
 
+/* Footer */
+
 footer{
     background-color: #0E0E11;
     padding-top: 109px;
@@ -400,6 +402,7 @@ footer h3 span::before{
 
     .our-work-text h3 span{
         font-size: 10px;
+        color: #CF4566;
         line-height: 12px;
     }
 
@@ -407,7 +410,7 @@ footer h3 span::before{
     .clients p{
         font-style: normal;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 21px;
     }
 
@@ -468,17 +471,23 @@ footer h3 span::before{
     }
 }
 
+/* Xsmall Screen */
+
 @media (max-width: 340px){
     .hero-text a{
         max-width: 270px;
     }
 }
 
+/* Small Screen */
+
 @media (min-width: 576px){
     .navbar-brand{
         font-size: 25.2px;
     }
 }
+
+/* Medium Screen */
 
 @media (min-width: 768px){
     .navbar-brand{
@@ -516,6 +525,8 @@ footer h3 span::before{
     }
 }
 
+/* Large Screen */
+
 @media (min-width: 992px){
     .navbar-brand{
         font-size: 32px;
@@ -534,6 +545,8 @@ footer h3 span::before{
         text-align: left;
     }
 }
+
+/* Xlarge Screen */
 
 @media (min-width: 1024px){
     .text-pattern{
