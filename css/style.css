@@ -443,6 +443,12 @@ footer h3 span::before{
 }
 
 @media (max-width: 992px){
+    .navbar-nav{
+        position: relative;
+        background-color: #0E0E11;
+        z-index: 4;
+    }
+
     .nav-item{
         position: relative;
         display: block;
