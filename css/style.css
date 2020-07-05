@@ -119,7 +119,8 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: left;
-    margin-top: 69px;
+    margin-top: 50px;
+    margin-bottom: 16px;
 }
 
 .hero-text a i{
