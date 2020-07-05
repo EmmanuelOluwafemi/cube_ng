@@ -186,6 +186,7 @@ header{
     font-size: 70px;
     line-height: 70px;
     text-transform: capitalize;
+    opacity: .5;
     color: #0E0E11;
     -webkit-text-stroke: 1px rgba(255, 255, 255, .3);
 }
@@ -463,6 +464,10 @@ footer h3 span::before{
         background: #151724;
     }
 
+    .text-pattern{
+        opacity: .5;
+    }
+
     .our-work .project{
         min-height: 850px !important;
         border-bottom: 2px solid #CF4566;
@@ -519,7 +524,8 @@ footer h3 span::before{
     }
 
     .text-pattern-project{
-        display: none;
+        display: block;
+        opacity: .1;
     }
 
     footer{
